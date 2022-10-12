@@ -1,4 +1,5 @@
-1st test
+# Test Result
+## 1st test
   Probability of each occurrence :
   1. no pair         = 0.210193
   2. one pair        = 0.472394
@@ -7,7 +8,7 @@
   5. full house      = 0.025550
   6. 4 of a kind     = 0.001687
 
-2nd test
+## 2nd test
   Probability of each occurrence :
   1. no pair         = 0.209838
   2. one pair        = 0.472435
@@ -16,7 +17,7 @@
   5. full house      = 0.025638
   6. 4 of a kind     = 0.001739
 
-3rd test
+## 3rd test
   Probability of each occurrence :
   1. no pair         = 0.210097
   2. one pair        = 0.472756
