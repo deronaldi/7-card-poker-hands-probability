@@ -1,4 +1,7 @@
-// coded by Dennis, Oct 12, 2022
+/* coded by Dennis R. Wong
+Oct 12, 2022
+Seoul, Korea
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
