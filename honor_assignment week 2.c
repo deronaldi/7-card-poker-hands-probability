@@ -76,7 +76,7 @@ void combination_checker(struct card * coh_pointer, int* occurence) // check wha
         occurence[5]++;
     else if (checker[3] >= 1 && checker[2] >= 1)
         occurence[4]++;
-    else if (checker[3] >= 1 && checker[2] >= 0)
+    else if (checker[3] >= 1 && checker[2] == 0)
         occurence[3]++;
     else if (checker[2] == 2)
         occurence[2]++;
@@ -98,7 +98,7 @@ int main(void) {
     struct card bs_deck[52];                    // before shuffle(bs) deck / sorted deck {A♠,2♠,...Q♦,K♦}
     struct card card_profile;
     short i = 0;                                // i = card position in deck {0,1,...,51}, assume 0=A♠, 51=K♦
-    for(int j = 1; j <= 13; j++) {              // card pip {1,2...,13}, assume 0=Ace, 11=Jack, 12=Queen, 13=King
+    for(int j = 1; j <= 13; j++) {              // card pip {1,2...,13}, assume 1=Ace, 11=Jack, 12=Queen, 13=King
         for(int k = 1; k <= 4; k++) {           // card suit {1,2,3,4}, assume 1=Spades(♠), 2=Hearts(♥), 3=Clubs(♣), 4=Diamonds(♦)
             card_profile.suit = k;
             card_profile.pip = j;
