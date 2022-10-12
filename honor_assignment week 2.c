@@ -1,4 +1,5 @@
-/* coded by Dennis R. Wong
+/*
+code written by Dennis R. Wong
 Oct 12, 2022
 Seoul, Korea
 */
